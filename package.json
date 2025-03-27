@@ -1,0 +1,23 @@
+{
+  "name": "vite-plugin-svelte-csp",
+  "version": "0.0.1",
+  "description": " A vite plugin allowing to generate SHA256 / use nonce when building svelte components",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts",
+    "test": "vitest"
+  },
+  "keywords": ["vite", "vite-plugin", "svelte", "csp", "sha256", "nonce", "webcomponents"],
+  "author": "ThibaudMZN",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "typescript": "^5.2.0",
+    "vitest": "^3.0.9"
+  },
+  "peerDependencies": {
+    "vite": "^4.0.0"
+  }
+}
